@@ -1,19 +1,19 @@
 ---
 title: "Economic Crisis and Health Inequalities in Southern Spain: A Multilevel Analysis"
 authors:
-- admin
 - J Alvarez-Galvez
 - JA Salinas-Perez
 - ML Rodero-Cosano
 - MA Gonzalez-Portillo
 - G Martinez-Cousinou
 - E Muniategui-Azkona
+- admin
 
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 date: "2016-01-02T00:00:00Z"
-doi: "10.1093/eurpub/ckw169.053"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -35,7 +35,7 @@ summary: The present work studies the changes in socioeconomic determinants of h
 
 # tags:
 # - Source Themes
-featured: false
+featured: true
 
 links:
 - name: "View Journal Article"
@@ -52,7 +52,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
   preview_only: false
 
