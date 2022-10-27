@@ -1,19 +1,13 @@
 ---
-title: "Economic Crisis and Health Inequalities in Southern Spain: A Multilevel Analysis"
+title: "An example journal article"
 authors:
 - admin
-- J Alvarez-Galvez
-- JA Salinas-Perez
-- ML Rodero-Cosano
-- MA Gonzalez-Portillo
-- G Martinez-Cousinou
-- E Muniategui-Azkona
-
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
-date: "2016-01-02T00:00:00Z"
-doi: "10.1093/eurpub/ckw169.053"
+- Robert Ford
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+date: "2015-09-01T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -25,23 +19,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *European Journal of Public Health. Oxford Academic.*"
-publication_short: "In *EUPHA, Oxford Academic*"
+publication: "*Journal of Source Themes, 1*(1)"
+publication_short: ""
 
-abstract: In this study, we use quantitative data from the project IMPACT-A, in particular information from the Spanish Health Barometers (2005-2014), to explain the variations between SES and health in Spain during the recent economic crisis. The contextual effect of social and macroeconomic indicators is analyzed through the use of multilevel regression models. The present work studies the changes in socioeconomic determinants of health and analyzes the evolution in this relationship for the period 2005–2014 in Spain. This study supports the existence of contextual effects among Spanish regions that varies the association between SES measures and health, and therefore points out the relevance of socioeconomic context in explaining the differences in individuals’ states of health. In addition, our model indicates that more attention should be paid to less studied SES measures, especially those related to the position of individuals in globalized labor markets.
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
-summary: The present work studies the changes in socioeconomic determinants of health and analyzes the evolution in this relationship for the period 2005–2014 in Spain. This study supports the existence of contextual effects among Spanish regions that varies the association between SES measures and health, and therefore points out the relevance of socioeconomic context in explaining the differences in individuals’ states of health. In addition, our model indicates that more attention should be paid to less studied SES measures, especially those related to the position of individuals in globalized labor markets.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-# tags:
-# - Source Themes
+tags:
+- Source Themes
 featured: false
 
-links:
-- name: "View Journal Article"
-  url: "http://dx.doi.org/10.1093/eurpub/ckw169.053"
-url_pdf: ''
-url_code: ''
+# links:
+# - name: ""
+#   url: ""
+url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -52,7 +46,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
   preview_only: false
 
@@ -68,7 +62,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ''
+slides: example
 ---
 
 {{% callout note %}}

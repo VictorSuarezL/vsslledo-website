@@ -35,7 +35,7 @@ summary: The present work studies the changes in socioeconomic determinants of h
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
 - name: "View Journal Article"
