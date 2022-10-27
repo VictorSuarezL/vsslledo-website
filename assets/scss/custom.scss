@@ -1,0 +1,518 @@
+/*************************************************
+ *  Core
+ **************************************************/
+
+
+/* Headings */
+
+a,
+h3.article-title a:hover {
+    color: rgb(127, 140, 180);
+}
+
+
+a:hover,
+a:focus {
+    color: rgb(52, 60, 86);
+}
+
+/*************************************************
+ *  Blog Articles
+ **************************************************/
+
+.article-metadata a:hover {
+    color: rgb(127, 140, 180);
+}
+
+/*************************************************
+ *  Button Primary: Color Override
+ **************************************************/
+
+.btn-primary {
+    border-color: rgb(127, 140, 180);
+    /*background: rgb(127,140,180);*/
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background: rgb(127, 140, 180);
+}
+
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+
+.btn-primary.btn-outline {
+    color: rgb(127, 140, 180);
+    border-color: rgb(127, 140, 180);
+}
+
+
+/*************************************************
+ *  Navigation Bar
+ **************************************************/
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(127, 140, 180);
+    font-weight: 700;
+    background-color: transparent !important;
+    /* Override Bootstrap. */
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(127, 140, 180);
+    outline: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+        color: rgb(127, 140, 180);
+        background-color: transparent;
+    }
+
+}
+
+/*************************************************
+  *  Toolbar Buttons
+  **************************************************/
+
+
+.btn-toolbar .btn.btn-primary {
+    background: rgb(127, 140, 180);
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+    background-color: rgba(127, 140, 180, 0.6);
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+    background-color: rgba(52, 60, 86, 1);
+}
+
+
+/*************************************************
+ *  Publications
+ **************************************************/
+
+.pub-icon {
+    color: rgb(52, 60, 86);
+    font-size: 0.81em;
+    padding-top: 6px;
+}
+
+.pub-list-item .pub-publication {
+    color: rgb(132, 214, 211);
+    font-size: 1rem;
+}
+
+
+/*************************************************
+   *  Fonts (note: update link @ themes/hugo-academic/layouts/partials)
+   **************************************************/
+
+html {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.65;
+}
+
+/*************************************************
+   *  Alerts
+   **************************************************/
+
+
+.alert-note {
+    color: #fff;
+    background-color: rgb(127, 140, 180);
+    border-color: #bce8f1;
+}
+
+.alert-warning {
+    color: #fff;
+    background-color: rgb(238, 88, 99);
+    border-color: #ebccd1;
+}
+
+/*************************************************
+   *  Home widget
+   **************************************************/
+
+.home-section {
+    background: white;
+    position: relative;
+    padding: 10px 0 10px;
+    z-index: 0;
+}
+
+.home-section:first-of-type {
+    padding: 0px 0 0px 0;
+}
+
+.home-section:not(:first-of-type) {
+    padding: 10px 0 10px 0;
+}
+
+/*************************************************
+ *  Projects
+ **************************************************/
+
+// #projects.home-section li {
+//     margin-bottom: 1rem;
+// }
+
+// #projects.home-section li:last-of-type {
+//     margin-bottom: 0;
+// }
+
+// #projects.home-section .project-title {
+//     margin-bottom: 6px;
+// }
+
+// #projects.home-section .project-summary {
+//     font-size: 0.9rem;
+//     margin-bottom: 0.4rem;
+// }
+
+// #projects.home-section .project-tags {
+//     font-size: 0.75rem;
+//     color: #9c9c9c;
+// }
+
+// .projects-container {
+//     display: block;
+//     position: relative;
+//     /*margin-top: 5rem;*/
+//     overflow: hidden;
+// }
+
+// .project-toolbar {
+//     margin-bottom: 2rem;
+// }
+
+// .project-item {
+//     margin-bottom: 1.5rem;
+// }
+
+// .isotope-item {
+//     z-index: 2;
+// }
+
+// .isotope-item:hover {
+//     z-index: 3;
+// }
+
+/*************************************************
+ *  Page content
+ **************************************************/
+.article-metadata,
+#article-metada {
+    display: none !important;
+}
+
+.article-date,
+#article-date {
+    display: none !important;
+}
+
+/*************************************************
+ *  Card component
+ **************************************************/
+// .card-simple {
+//     background: #fff;
+//     // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+//     border: 1px solid rgba(0, 0, 0, 0.09);
+//     border-radius: 3px;
+//     margin-top: 20px;
+//     padding: 15px 20px;
+// }
+
+.card-simple {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    transition: all 0.2s ease-out;
+}
+
+// .card-simple:first-of-type {
+//     margin-top: 0;
+// }
+
+// .card-simple p.read-more {
+//     margin: 0;
+// }
+
+.dark .card-simple {
+    background: #282a36;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border: 1px solid #44475a;
+}
+
+// Add effect to cards when hover
+
+.card-simple:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-simple:hover .card-image.hover-overlay:before {
+    opacity: 0.8;
+}
+
+.card-simple:hover .card-image.hover-overlay:after {
+    opacity: 0.6;
+}
+
+
+
+
+/*************************************************
+   *  Image zoom on hover for previews.
+   **************************************************/
+// /* Hide overflowing of zoomed child img element */
+// .img-hover-zoom,
+// #img-hover-zoom {
+//     overflow: disable !important;
+// }
+
+/* Smooth transition for image zoom on hover */
+.img-hover-zoom img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    min-height: 100px;
+    // transition: transform 0.3s ease-in-out;
+}
+
+/* Transform the image scale when container gets hovered */
+.img-hover-zoom:hover img {
+    width: 100%;
+    height: 100%;
+    transform: 0;
+    display: block;
+    position: relative;
+    min-height: 100px;
+    transform: scale(1);
+}
+
+// .img-hover-zoom.hover-overlay::before {
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: #fff;
+//     content: ' ';
+//     opacity: 0;
+//     transition: all 0.2s ease-out;
+// }
+
+// .img-hover-zoom.hover-overlay::after {
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     top: 50%;
+//     width: 100%;
+//     transform: translate(0, -50%);
+//     opacity: 0;
+//     transition: all 0.2s ease-out;
+//     font-family: 'Font Awesome 5 Free';
+//     font-weight: 900;
+//     content: '\f0c1';
+//     text-align: center;
+//     font-size: 3rem;
+//     color: #666;
+// }
+
+////////////////////////////////////////////////////// 
+/// From Custom CSS allyson
+/// 
+/// 
+
+/* about-contact helpers */
+
+// .mini {
+//     text-align: left;
+//     margin-left: 10rem;
+//     margin-right: 10rem;
+//     padding-bottom: 68px;
+//     border-bottom: 1px solid #000000;
+// }
+
+// hr {
+//     border: 0;
+//     height: 1px;
+//     background: #000000;
+//     background-image: none;
+// }
+
+// .center-block {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .home-section.wg-experience .card-body {
+//     padding: .5rem;
+// }
+
+// .home-section.wg-experience .card .card-text {
+//     padding: 0;
+// }
+
+/* images more like cards; iframes more seamless */
+
+// .fooclass img {
+//     max-width: 25%;
+//     display: block;
+//     margin-left: 20px;
+//     margin-right: 50px;
+//     margin-bottom: 0%;
+//     float: center;
+//     box-shadow: 0 0px 0px;
+// }
+
+// .fooclass .col-lg-12 {
+//     text-align: justify;
+// }
+
+// img {
+//     margin-bottom: 1.5rem;
+//     overflow: hidden;
+//     background: #fff;
+//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+// }
+
+// iframe {
+//     border: 0;
+// }
+
+/* pagination buttons */
+/*
+.page-link {
+	color: #000000;
+	background-color: #fbf9f4;
+	border: 1px solid #000000;
+  border-radius: 0px; /*undo rounded corners*/
+
+/*}
+
+.page-link:hover {
+	color: #fff;
+	background-color: #000000;
+	border-color: #000000;
+}
+
+.page-item:first-child .page-link {
+	border-top-left-radius: 0rem;
+	border-bottom-left-radius: 0rem;
+}
+
+.page-item:last-child .page-link {
+	border-top-right-radius: 0rem;
+	border-bottom-right-radius: 0rem;
+}
+
+/* dark fixes */
+
+// .dark .pagination li>a,
+// .pagination li>span {
+//     border: 1px solid #000000;
+// }
+
+// .dark .page-link:hover {
+//     background-color: #000000;
+// }
+
+// .dark a:active,
+// .dark a:focus,
+// .dark a:hover {
+//     color: #fff;
+// }
+
+// /* modify big-icon */
+
+// .big-icon {
+//     color: #E13D3d;
+// }
+
+// .hero-title {
+//     font-size: 150%
+// }
+
+// .hero-lead {
+//     font-size: 100%
+// }
+
+/*Marcos CSS*/
+// img {
+//     box-shadow: none !important
+// }
+
+/*.article-header.services {
+   background-color: rgb(225, 61, 61);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.cs2datalab.com/services/services3.jpg");
+   min-height: 253px;
+   background-position: center !important;
+   background-size: 100% !important;
+   background-repeat: no-repeat !important;
+}
+
+.article-header.courses {
+   background-color: rgb(225, 61, 61);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.cs2datalab.com/courses/courses.jpg");
+   min-height: 253px;
+   background-position: center !important;
+   background-size: 100% !important;
+   background-repeat: no-repeat !important;
+  
+}*/
+// @media (min-width: 801px) {
+//     .article-header {
+//         background-color: rgb(225, 61, 61);
+//         min-height: 253px;
+//         background-position: center !important;
+//         background-size: 100% !important;
+//         background-repeat: no-repeat !important;
+//         height: 253px;
+//         contain: content;
+//     }
+
+//     .article-header img {
+//         object-fit: cover !important;
+//         height: 253px !important;
+//     }
+// }
+
+// @media (max-width: 800px) {
+//     .article-header {
+//         background-color: rgb(225, 61, 61);
+//         background-position: center !important;
+//         background-size: 100% !important;
+//         background-repeat: no-repeat !important;
+//     }
+// }
+
+/*.article-header img {display: none !important}*/

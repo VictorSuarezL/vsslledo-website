@@ -1,33 +1,28 @@
 ---
-title: 'Socioeconomic Determinants of Health in Andalusia: Studying the Effect of Economic Crisison Andalusian’s Health'
-summary: The present work studies the changes in socioeconomic determinants of health and analyzes the evolution in this relationship for the period 2005–2014 in Spain. This study supports the existence of contextual effects among Spanish regions that varies the association between SES measures and health, and therefore points out the relevance of socioeconomic context in explaining the differences in individuals’ states of health. In addition, our model indicates that more attention should be paid to less studied SES measures, especially those related to the position of individuals in globalized labor markets.
-tags:
-  - Health
-date: '2017-01-01T00:00:00Z'
-
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
+date: "2016-04-27T00:00:00Z"
+header:
+  caption: ""
+  image: "../project/impacta/proyecto_IMPACTA_project2.jpg"
+  class: "courses"
+  preview_only: true
 image:
-  caption: ''
-  focal_point: Smart
-
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/vsuarezlledo
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+  preview_only: true
+external_link: ""
+# links:
+# - icon: twitter
+#   icon_pack: fab
+#   name: Follow
+#   url: https://twitter.com/georgecushen
+# slides: example
+summary: The present work studies the changes in socioeconomic determinants of health and analyzes the evolution in this relationship for the period 2005–2014 in Spain.
+tags:
+- Health
+- Social Determinants
+title: Impact-A
+url_code: ""
+url_pdf: "https://www.centrodeestudiosandaluces.es/datos/publicaciones/Actualidad77.pdf"
+url_slides: ""
+url_video: ""
 ---
 
 ## Background
